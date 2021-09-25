@@ -1,1 +1,3 @@
-# python_sockets_calculator
+# Calculadora cliente/servidor con Python
+
+Este trabajo consiste en una calculadora, pensada de modo que el cliente introduzca los parámetros de la Ip del servidor y del puerto para conectarse y, una vez dentro del programa, indicará si quiere realizar una operación, y a continuación el operador y los dos operandos. El servidor calculará el resultado o enviará un mensaje de error al cliente (en caso de que no haya introducido un operador válido o que pretenda dividir entre 0). Por defecto el servidor solo admite dos conexiones y se utiliza el puerto 5050, pero es fácilmente modificable desde el código del servidor.
